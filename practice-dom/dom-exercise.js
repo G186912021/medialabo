@@ -25,19 +25,23 @@ p.style.textEmphasis='sesame green';
 div = document.querySelector('div#phototable');
 img = document.createElement('a');
 img.setAttribute('src', 'taro.png');
+p
 div.insertAdjacentElement('beforeend', img);
+
 div = document.querySelector('div#phototable');
 img2 = document.createElement('b');
-img2.setAttribute('href', 'jiro.png');
+img2.setAttribute('src', 'jiro.png');
 div.insertAdjacentElement('beforeend', img2); 
+
 div = document.querySelector('div#phototable');
 img3 = document.createElement('c');
-img3.setAttribute('href', 'hanako.png');
+img3.setAttribute('src', 'hanako.png');
 div.insertAdjacentElement('beforeend', img3);
 
 
 // 練習4-4 箇条書き削除プログラム
-
+let w =document.querySelectorAll('li'); 
+w.remove(); 
 
 // 練習4-5 箇条書き追加プログラム
 
